@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "puzzle_api"
+version = "0.1.0"
+description = ""
+authors = ["Giuseppe Fiorentino <fiorentinogiuseppebcc@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+locust = "^1.6.0"
+uvicorn = "^0.14.0"
+fastapi = "^0.65.3"
+orjson = "^3.5.4"
+numpy = "^1.21.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
